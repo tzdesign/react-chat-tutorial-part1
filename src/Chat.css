@@ -1,0 +1,43 @@
+.textWrapper{
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:10px;
+
+}
+
+input{
+  outline: none;
+  width:100%;
+  display: block;
+  box-sizing: border-box;
+  padding:5px 10px;
+  font-size:1.2em;
+}
+
+.chatList{
+  overflow: auto;
+  flex-direction: column;
+  position: absolute;
+  justify-content: flex-end;
+  top:0;
+  left:0;
+  bottom:57px;
+  right:0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.chatList div{
+  background:#ccc;
+  display: inline-block;
+  clear:both;
+  float:left;
+  margin:10px;
+  padding:5px 10px;
+  border-radius:10px;
+}
+
+.chatList div.you{
+  background:#81a4de;
+  float:right;
+}
