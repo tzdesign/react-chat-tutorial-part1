@@ -1,5 +1,9 @@
 # React Chat Tutorial
 
-Einfach 
+Einfach installieren:
 
 ```npm install```
+
+und ausführen:
+
+```npm start```
